@@ -3,7 +3,7 @@
 This project is a responsive landing page created as part of the Web Development Internship Task 1.
 
 ## Project Description
-
+ 
 The landing page is built using HTML, CSS, and JavaScript. It includes a modern design, smooth styling, and basic interactivity to make the page more attractive and user-friendly.
 
 ## Technologies Used
