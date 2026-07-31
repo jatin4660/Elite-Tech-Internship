@@ -1,34 +1,35 @@
-# Task 1 - Personal Portfolio Website
+# Task 1 - Landing Page
 
-## Overview
-This project is a responsive personal portfolio website created as part of the Elite Tech Internship. It showcases personal information, skills, projects, and contact details using modern web design principles.
+This project is a responsive landing page created as part of the Web Development Internship Task 1.
 
-## Features
-- Responsive design
-- About section
-- Skills section
-- Projects showcase
-- Contact section
-- Clean and modern UI
+## Project Description
+
+The landing page is built using HTML, CSS, and JavaScript. It includes a modern design, smooth styling, and basic interactivity to make the page more attractive and user-friendly.
 
 ## Technologies Used
-- HTML5
-- CSS3
+
+- HTML
+- CSS
 - JavaScript
 
-## Folder Structure
-```
-Task 1/
-├── assets/
-├── index.html
-├── script.js
-└── style.css
-```
+## Features
 
-## How to Run
-1. Download or clone the repository.
-2. Open the `Task 1` folder.
-3. Open `index.html` in your web browser.
+- Clean and attractive landing page layout
+- Navigation bar
+- Hero section with call-to-action button
+- Features section
+- Footer section
+- Button hover effects
+- Basic JavaScript interaction
+- Responsive and beginner-friendly structure
+
+## How To Open The Project
+
+1. Download or clone this repository.
+2. Open the project folder.
+3. Double-click on `index.html`.
+4. The landing page will open in your browser.
 
 ## Author
-Created as part of the **Elite Tech Internship**.
+
+Created by Jatin.
