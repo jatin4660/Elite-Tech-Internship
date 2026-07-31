@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="scene" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Go to home">
+        <span class="brand-mark">JP</span>
+        <span>Portfolio</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Frontend Developer / Student</p>
+          <h1>Hi, I am <span>Jatin</span>. I build clean, animated web experiences.</h1>
+          <p class="hero-text">
+            A personal portfolio made with modern CSS, GSAP-ready animations, and an interactive visual layer.
+            Replace this text with your own introduction before submission.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <img src="assets/portfolio-visual.png" alt="Abstract developer workspace illustration" />
+          <div class="status-panel">
+            <span class="pulse"></span>
+            <p>Available for internships and project work</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section split" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Curious, detail-focused, and always learning.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            I am a web development learner who enjoys creating responsive interfaces, smooth user flows, and
+            meaningful animations. My current focus is HTML, CSS, JavaScript, and building projects that look
+            professional on both desktop and mobile.
+          </p>
+          <div class="stats">
+            <div>
+              <strong>8+</strong>
+              <span>Practice Projects</span>
+            </div>
+            <div>
+              <strong>4</strong>
+              <span>Core Skills</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Responsive Layout</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools I use to turn ideas into websites.</h2>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card reveal">
+            <span>01</span>
+            <h3>HTML</h3>
+            <p>Semantic pages with clear structure and accessible navigation.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span>02</span>
+            <h3>CSS</h3>
+            <p>Responsive layouts, modern styling, transitions, and keyframe animation.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span>03</span>
+            <h3>JavaScript</h3>
+            <p>Interactive menus, scroll effects, form feedback, and dynamic UI behavior.</p>
+          </article>
+          <article class="skill-card reveal">
+            <span>04</span>
+            <h3>GSAP / Three.js</h3>
+            <p>Animation libraries for smooth page motion and interactive visual scenes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work to showcase in your internship submission.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-image project-one"></div>
+            <div class="project-content">
+              <p class="tag">HTML / CSS / JS</p>
+              <h3>Weather Dashboard</h3>
+              <p>A responsive dashboard concept with search, forecast cards, and polished micro-interactions.</p>
+              <a href="#contact" aria-label="Discuss Weather Dashboard project">Discuss Project</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-two"></div>
+            <div class="project-content">
+              <p class="tag">JavaScript</p>
+              <h3>Task Manager</h3>
+              <p>A focused productivity app concept with filters, status states, and clean visual hierarchy.</p>
+              <a href="#contact" aria-label="Discuss Task Manager project">Discuss Project</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-image project-three"></div>
+            <div class="project-content">
+              <p class="tag">GSAP Animation</p>
+              <h3>Animated Landing Page</h3>
+              <p>A modern one-page interface using scroll reveals, hover effects, and smooth entrance motion.</p>
+              <a href="#contact" aria-label="Discuss Animated Landing Page project">Discuss Project</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Journey</p>
+          <h2>Learning path and internship-ready progress.</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>Step 1</span>
+            <h3>Foundation</h3>
+            <p>Built strong basics in HTML, CSS, responsive design, and JavaScript logic.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>Step 2</span>
+            <h3>Projects</h3>
+            <p>Created practical mini projects to improve layout, styling, and interaction skills.</p>
+          </div>
+          <div class="timeline-item reveal">
+            <span>Step 3</span>
+            <h3>Portfolio</h3>
+            <p>Designed this animated portfolio to present skills, projects, and contact details professionally.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let us build something useful and beautiful.</h2>
+        </div>
+        <form class="contact-form reveal">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about your project"></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Made for Task 2 Portfolio Internship Submission.</p>
+      <div>
+        <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:hello@example.com">Email</a>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r158/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

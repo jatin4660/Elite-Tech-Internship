@@ -1,0 +1,79 @@
+/* Basic page styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #9bb7f0;
+  color: #222;
+}
+
+/* Navbar design */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111827;
+  color: white;
+  padding: 20px 70px;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+/* Hero section design */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #2563eb, #14b8a6);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+button {
+  background-color: rgb(142, 240, 163);
+  color: #000000;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #111827;
+  color: white;
+}
+
+/* Features section */
+.features {
+  padding: 70px 40px;
+  text-align: center;
+}
+
+.feature-box {
+  background-color: rgb(193, 227, 243);
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer design */
+footer {
+  text-align: center;
+  background-color: #111827;
+  color: white;
+  padding: 20px;
+}

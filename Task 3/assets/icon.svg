@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">OfflineMart logo</title>
+  <desc id="desc">A shopping bag with a signal mark and rupee-inspired monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="34" x2="444" y2="478" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2f7d75"/>
+      <stop offset=".54" stop-color="#214f4b"/>
+      <stop offset="1" stop-color="#142f2d"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="138" y1="122" x2="368" y2="394" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf4ef"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="82" width="360" height="368" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#0b201e" flood-opacity=".26"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#bg)"/>
+  <circle cx="410" cy="114" r="72" fill="#e7b34f" opacity=".18"/>
+  <circle cx="96" cy="410" r="86" fill="#d86145" opacity=".16"/>
+  <path d="M110 176c34-52 86-82 146-82 93 0 170 72 178 164" fill="none" stroke="#e7b34f" stroke-width="22" stroke-linecap="round" opacity=".92"/>
+  <path d="M130 210h252l-26 190H156z" fill="url(#bag)" filter="url(#shadow)"/>
+  <path d="M181 210c0-47 31-82 75-82s75 35 75 82" fill="none" stroke="#fbfcfa" stroke-width="30" stroke-linecap="round"/>
+  <path d="M181 210c0-47 31-82 75-82s75 35 75 82" fill="none" stroke="#214f4b" stroke-width="14" stroke-linecap="round" opacity=".9"/>
+  <path d="M206 270h102M206 309h82" stroke="#214f4b" stroke-width="24" stroke-linecap="round"/>
+  <path d="M198 354h96c29 0 50-17 55-43" fill="none" stroke="#d86145" stroke-width="24" stroke-linecap="round"/>
+  <path d="M326 268c22 7 39 25 45 48" fill="none" stroke="#e7b34f" stroke-width="22" stroke-linecap="round"/>
+  <path d="M356 232c42 13 74 47 86 90" fill="none" stroke="#e7b34f" stroke-width="18" stroke-linecap="round" opacity=".78"/>
+</svg>
